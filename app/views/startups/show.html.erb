@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company name:</strong>
+  <%= @startup.company_name %>
+</p>
+
+<div class="container"> 
+
+<p>
+  <strong>Year founded:</strong>
+  <%= @startup.year_founded %>
+</p>
+
+<%= link_to 'Edit', edit_startup_path(@startup) %> |
+<%= link_to 'Back', startups_path %>
+
+</div>
