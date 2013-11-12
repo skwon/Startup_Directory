@@ -1,4 +1,6 @@
 StartupDirectory::Application.routes.draw do
+  resources :people
+
   resources :startups
   root :to => 'startups#index'
   # The priority is based upon order of creation: first created -> highest priority.

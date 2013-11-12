@@ -45,3 +45,25 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "foreman"
+gem "devise"
+
+group :development, :test do
+  gem "rspec-rails", "2.13.0"
+  gem "pry"
+  gem "pry-rails"
+  gem "pry-debugger"
+  gem "pry-awesome_print"
+  gem "guard-rspec"
+  gem "guard-bundler"
+  gem "rb-fsevent"
+end
+
+group :test do
+  gem "capybara"
+  gem "factory_girl_rails", "4.1.0"
+  gem "forgery"
+  gem "launchy"
+  gem 'mocha', :require => 'mocha/api'
+end
