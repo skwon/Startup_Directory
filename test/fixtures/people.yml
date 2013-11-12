@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  role: MyString
+  email: 
+  social_info: MyString
+  skill: MyString
+  work_history: MyString
+  startup_id: 1
+
+two:
+  role: MyString
+  email: 
+  social_info: MyString
+  skill: MyString
+  work_history: MyString
+  startup_id: 1
